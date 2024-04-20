@@ -1,0 +1,21 @@
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyCsB5wRvumo-gaJHXx5kabPEvXww_b-bwk",
+  authDomain: "dimsard-personal-calendar.firebaseapp.com",
+  projectId: "dimsard-personal-calendar",
+  storageBucket: "dimsard-personal-calendar.appspot.com",
+  messagingSenderId: "80906669284",
+  appId: "1:80906669284:web:141156d3e256f2d964b0f1",
+  measurementId: "G-ZMW76FZXV6"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
