@@ -91,6 +91,7 @@ function App() {
       thisEvent.name = nameValue;
       thisEvent.email = emailValue;
       thisEvent.time = timeValue;
+      set(ref(db, "user_testing"), { name: "user_testing", events: data });
     }
 
     hideModal("update_or_create_modal");
